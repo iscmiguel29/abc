@@ -1,7 +1,62 @@
+<!DOCTYPE html>
 <html>
-  <header>
-    <body>
-      Hello World
-    </body>
-  </header>
+<head>
+  <script>
+      (function() {
+        var ot = document.createElement('script');
+        ot.type = 'text/javascript'; ot.id = 'ob-script-async'; ot.async = true;
+        ot.src = 'https://i-us.ci360.sas.com/js/ot-all.min.js';
+
+        var a = document.createAttribute('a');
+        a.nodeValue = 'cc4298b0a100010453d287a0'; // This value is your external tenant ID.
+        ot.attributes.setNamedItem(a);
+
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ot, s);
+      })();
+    </script>
+<script language="JavaScript">
+    function showInput() {
+	var scriptList = document.scripts;
+        document.getElementById('display').innerHTML = document.scripts.item(1).text;        
+    }
+  </script>
+</head>
+
+<body bgcolor="#EEEEEE">
+<div>hola mundo (carga página)</div>
+<script>
+<html>
+  <head>
+  <script>
+      (function() {
+        var ot = document.createElement('script');
+        ot.type = 'text/javascript'; ot.id = 'ob-script-async'; ot.async = true;
+        ot.src = 'https://i-us.ci360.sas.com/js/ot-all.min.js';
+
+        var a = document.createAttribute('a');
+        a.nodeValue = 'cc4298b0a100010453d287a0'; // This value is your external tenant ID.
+        ot.attributes.setNamedItem(a);
+
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ot, s);
+      })();
+    </script>
+  </head>
+<body bgcolor="#E6E6FA">
+	<div>hola mundo 2</div>
+</body>
 </html>
+<div>
+</script>
+
+
+<div>
+<!-- boton que ejecuta script -->
+  <input type="submit" onclick="showInput();"><br/>
+</div>
+<p><span id='display'></span></p>
+<div id=cuerpo></div>
+</body>
+</html> 
+
